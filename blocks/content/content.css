@@ -3,3 +3,9 @@
     margin: 0 auto;
     position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+    .content {
+        max-width: 100%;
+    }
+}

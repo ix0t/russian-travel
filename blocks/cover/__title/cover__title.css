@@ -7,3 +7,20 @@
     margin: 0 auto;
     z-index: 1;
 }
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 52px;
+        line-height: 1.075;
+        max-width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 539px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+        max-width: 250px;
+    }
+}

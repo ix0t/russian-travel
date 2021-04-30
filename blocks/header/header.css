@@ -8,3 +8,17 @@
     font-size: 16px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: calc(100% - 32px);
+        max-height: 42px;
+    }
+}
+
