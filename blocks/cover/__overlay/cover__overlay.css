@@ -1,0 +1,6 @@
+.cvoer__background {
+    background-color: black;
+    opacity: .3;
+    z-index: 1;
+    min-height: 740px;
+}

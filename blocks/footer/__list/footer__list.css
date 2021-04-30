@@ -1,0 +1,8 @@
+.footer__list {
+    margin-left: 18px;
+    box-sizing: border-box;
+}
+
+.footer__list:first-child {
+    margin-left: 0;
+}
