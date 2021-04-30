@@ -9,7 +9,7 @@
 @media screen and (max-width: 1279px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 14px;   
+        grid-gap: 14px;
         max-width: calc(100% - 48px*2);
     }
 }
@@ -17,7 +17,7 @@
 @media screen and (max-width: 1023px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 14px;   
+        grid-gap: 14px;
         max-width: calc(100% - 24px*2);
     }
 }
@@ -26,7 +26,7 @@
 @media screen and (max-width: 539px) {
     .photo-grid {
         grid-template-columns: 1fr;
-        grid-gap: 12px;   
+        grid-gap: 12px;
         max-width: calc(100% - 16px*2);
     }
 }
