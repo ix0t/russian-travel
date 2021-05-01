@@ -6,9 +6,7 @@
     margin: 0 auto;
     max-width: 984px;
     height: auto;
-    grid-template-areas: 
-    "hd ws"
-    "im tx";
+    grid-template-areas: "hd ws" "im tx";
 }
 
 .place:not(:first-child) {
@@ -23,7 +21,6 @@
     }
 }
 
-
 @media screen and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px minmax(min-content, max-content);
@@ -34,26 +31,14 @@
     }
 }
 
-
 @media screen and (max-width: 767px) {
     .place {
         grid-gap: 32px;
         grid-template-columns: minmax(min-content, max-content);
         grid-template-rows: repeat(auto-fill, minmax(35px, max-content));
-        grid-template-areas: 
-        "hd"
-        "ws"
-        "im"
-        "tx";
+        grid-template-areas: "hd" "ws" "im" "tx";
     }
     .place:not(:first-child) {
         margin: 50px auto 0;
-    }
-}
-
-
-@media screen and (max-width: px) {
-    .place {
-        
     }
 }

@@ -20,15 +20,3 @@
         max-width: 100%;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .lead {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 539px) {
-    .lead {
-        max-width: 100%;
-    }
-}

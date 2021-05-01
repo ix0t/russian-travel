@@ -1,5 +1,5 @@
 .content {
-    max-width: calc(100% - 96px);
+    max-width: calc(1280px - 96px);
     margin: 0 auto;
     position: relative;
 }

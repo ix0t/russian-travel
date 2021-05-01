@@ -17,11 +17,9 @@
 @media screen and (max-width: 1023px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 14px;
         max-width: calc(100% - 24px*2);
     }
 }
-
 
 @media screen and (max-width: 539px) {
     .photo-grid {
