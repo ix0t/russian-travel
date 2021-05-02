@@ -7,6 +7,13 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1279px) {
+    .footer {
+        padding: 88px 0 24px;
+        max-width: calc(100% - 96px);
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .footer {
         padding: 88px 0 24px;
